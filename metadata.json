@@ -1,0 +1,6 @@
+{
+  "name": "El Asador Margarita Ranch Grill",
+  "description": "Authentic Tamaulipas-style mesquite wood-fired grill, parrilladas, handmade tortillas, famous charro beans, and craft margaritas in East Austin, Texas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
