@@ -23,11 +23,17 @@ export const LocationHoursSection: React.FC<LocationHoursSectionProps> = ({ onOp
       // Monday closed
       setIsCurrentlyOpen(false);
     } else if (day === 0) {
-      setIsCurrentlyOpen(hour >= 11 && hour <= 21);
+      // Sunday: 10:30 AM - 7:00 PM
+      setIsCurrentlyOpen(hour >= 10.5 && hour <= 19);
     } else if (day === 5 || day === 6) {
-      setIsCurrentlyOpen(hour >= 11 && hour <= 22.5);
+      // Fri - Sat: 10:30 AM - 10:00 PM
+      setIsCurrentlyOpen(hour >= 10.5 && hour <= 22);
+    } else if (day === 2) {
+      // Tue: 12:00 PM - 8:00 PM
+      setIsCurrentlyOpen(hour >= 12 && hour <= 20);
     } else {
-      setIsCurrentlyOpen(hour >= 11 && hour <= 21.5);
+      // Wed - Thu: 10:30 AM - 8:00 PM
+      setIsCurrentlyOpen(hour >= 10.5 && hour <= 20);
     }
   }, []);
 

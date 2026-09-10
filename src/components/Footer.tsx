@@ -139,16 +139,20 @@ export const Footer: React.FC<FooterProps> = ({ onOpenReservation, onOpenCaterin
             
             <div className="text-xs text-[#A89C8E] space-y-1">
               <div className="flex justify-between py-0.5">
-                <span>Tue – Thu</span>
-                <span className="text-white font-medium">11:00 AM – 9:30 PM</span>
+                <span>Tuesday</span>
+                <span className="text-white font-medium">12:00 PM – 8:00 PM</span>
+              </div>
+              <div className="flex justify-between py-0.5">
+                <span>Wed – Thu</span>
+                <span className="text-white font-medium">10:30 AM – 8:00 PM</span>
               </div>
               <div className="flex justify-between py-0.5">
                 <span>Fri – Sat</span>
-                <span className="text-white font-medium">11:00 AM – 10:30 PM</span>
+                <span className="text-white font-medium">10:30 AM – 10:00 PM</span>
               </div>
               <div className="flex justify-between py-0.5">
                 <span>Sunday</span>
-                <span className="text-white font-medium">11:00 AM – 9:00 PM</span>
+                <span className="text-white font-medium">10:30 AM – 7:00 PM</span>
               </div>
               <div className="flex justify-between py-0.5 text-[#C85227]">
                 <span>Monday</span>

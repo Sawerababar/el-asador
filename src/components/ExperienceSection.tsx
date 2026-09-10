@@ -30,20 +30,20 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({ onOpenRese
             <div className="h-56 overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
-                alt="Outdoor rustic patio dining in Austin"
+                alt="Covered pergola outdoor patio with picnic tables and string lights"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="p-6 flex-1 flex flex-col justify-between">
               <div>
                 <span className="text-xs font-bold uppercase tracking-wider text-[#C85227]">The Patio</span>
-                <h3 className="font-serif text-xl font-bold text-[#1F1A17] mt-1 mb-2">Breezy Outdoor Dining</h3>
+                <h3 className="font-serif text-xl font-bold text-[#1F1A17] mt-1 mb-2">Covered Pergola & Lawn</h3>
                 <p className="text-sm text-[#5A5046] leading-relaxed">
-                  Relax under Texas evening skies with warm string lights, gentle breezes, and communal wooden tables. Dog-friendly and family-ready.
+                  Dine outdoors under our cedar pergola shelter with wooden picnic tables set on green lawn, glowing string festoon lights, and a relaxed East Austin atmosphere.
                 </p>
               </div>
               <div className="mt-4 pt-3 border-t border-[#E8DFC8] text-xs font-semibold text-[#8C7E72]">
-                Patio Seating Available Daily
+                Covered Outdoor Seating & Dog Friendly
               </div>
             </div>
           </div>
@@ -53,43 +53,43 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({ onOpenRese
             <div className="h-56 overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=800&q=80"
-                alt="Live mesquite coals in the asador hearth"
+                alt="Live Texas mesquite charcoal coals grilling steaks"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="p-6 flex-1 flex flex-col justify-between">
               <div>
-                <span className="text-xs font-bold uppercase tracking-wider text-[#C85227]">The Kitchen</span>
-                <h3 className="font-serif text-xl font-bold text-[#1F1A17] mt-1 mb-2">The Aroma of Texas Mesquite</h3>
+                <span className="text-xs font-bold uppercase tracking-wider text-[#C85227]">The Grill</span>
+                <h3 className="font-serif text-xl font-bold text-[#1F1A17] mt-1 mb-2">Texas Mesquite Firecraft</h3>
                 <p className="text-sm text-[#5A5046] leading-relaxed">
-                  The moment you walk up to 2617 E 7th St, the unmistakable sweet fragrance of hardwood smoke greets you. Watch the flame master at work.
+                  Real northeastern Mexican barbecue cooked over live mesquite hardwood embers at 700°F. Savor crisp smoky edges and rich, juicy centers.
                 </p>
               </div>
               <div className="mt-4 pt-3 border-t border-[#E8DFC8] text-xs font-semibold text-[#8C7E72]">
-                Open Kitchen & Mesquite Hearth
+                Rib-Eyes, Ribs, Sausage & $5 Tacos
               </div>
             </div>
           </div>
 
-          {/* Card 3: Family Gatherings */}
+          {/* Card 3: Clay Pottery Presentation */}
           <div className="bg-[#FAF7F2] rounded-2xl overflow-hidden border border-[#E3DACD] shadow-sm flex flex-col">
             <div className="h-56 overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
-                alt="Table sharing a parrillada feast"
+                src="https://images.unsplash.com/photo-1543339308-43e59d6b73a6?auto=format&fit=crop&w=800&q=80"
+                alt="Authentic Mexican clay pottery with charro beans and carnes asadas"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
               />
             </div>
             <div className="p-6 flex-1 flex flex-col justify-between">
               <div>
-                <span className="text-xs font-bold uppercase tracking-wider text-[#C85227]">Community</span>
-                <h3 className="font-serif text-xl font-bold text-[#1F1A17] mt-1 mb-2">Parrilladas for the Whole Table</h3>
+                <span className="text-xs font-bold uppercase tracking-wider text-[#C85227]">Tradition</span>
+                <h3 className="font-serif text-xl font-bold text-[#1F1A17] mt-1 mb-2">Platos y Cazuelas de Barro</h3>
                 <p className="text-sm text-[#5A5046] leading-relaxed">
-                  Food in Tamaulipas is made for sharing. Sizzling platters of skirt steak, chorizo, charro beans, and warm tortillas invite everyone to build their own tacos.
+                  Food served the authentic way in Mexican hand-painted clay pottery with complimentary 12-hour simmered frijoles charros and grilled cebollitas.
                 </p>
               </div>
               <div className="mt-4 pt-3 border-t border-[#E8DFC8] text-xs font-semibold text-[#8C7E72]">
-                Feeds 2-6 Guests Family-Style
+                Authentic Tamaulipas Ranch Tradition
               </div>
             </div>
           </div>

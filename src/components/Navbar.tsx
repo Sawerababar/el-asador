@@ -33,14 +33,17 @@ export const Navbar: React.FC<NavbarProps> = ({
     if (day === 1) {
       setIsOpenToday(false);
     } else if (day === 0) {
-      // Sunday: 11:00 AM - 9:00 PM
-      setIsOpenToday(hour >= 11 && hour <= 21);
+      // Sunday: 10:30 AM - 7:00 PM
+      setIsOpenToday(hour >= 10.5 && hour <= 19);
     } else if (day === 5 || day === 6) {
-      // Fri - Sat: 11:00 AM - 10:30 PM
-      setIsOpenToday(hour >= 11 && hour <= 22.5);
+      // Fri - Sat: 10:30 AM - 10:00 PM
+      setIsOpenToday(hour >= 10.5 && hour <= 22);
+    } else if (day === 2) {
+      // Tuesday: 12:00 PM - 8:00 PM
+      setIsOpenToday(hour >= 12 && hour <= 20);
     } else {
-      // Tue - Thu: 11:00 AM - 9:30 PM
-      setIsOpenToday(hour >= 11 && hour <= 21.5);
+      // Wed - Thu: 10:30 AM - 8:00 PM
+      setIsOpenToday(hour >= 10.5 && hour <= 20);
     }
 
     return () => window.removeEventListener('scroll', handleScroll);
