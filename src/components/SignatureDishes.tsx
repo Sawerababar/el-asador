@@ -38,7 +38,7 @@ export const SignatureDishes: React.FC<SignatureDishesProps> = ({
 
           <button
             onClick={onExploreMenu}
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-[#2A231E] text-[#1F1A17] hover:bg-[#2A231E] hover:text-white font-semibold text-sm transition-colors self-start md:self-auto shrink-0"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl border border-[#2A231E] text-[#1F1A17] hover:bg-[#2A231E] hover:text-white font-semibold text-xs uppercase tracking-[0.08em] transition-colors self-start md:self-auto shrink-0"
           >
             <span>View Full Menu & Prices</span>
             <span>→</span>

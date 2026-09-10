@@ -198,7 +198,7 @@ export const CateringModal: React.FC<CateringModalProps> = ({ isOpen, onClose })
 
               <button
                 type="submit"
-                className="w-full py-3.5 rounded-xl bg-[#C85227] hover:bg-[#A8401C] text-white font-bold text-sm shadow-md transition-all"
+                className="w-full py-3.5 rounded-xl bg-[#C85227] hover:bg-[#A8401C] text-white font-semibold text-xs uppercase tracking-[0.08em] shadow-md transition-all"
               >
                 Send Catering Request
               </button>

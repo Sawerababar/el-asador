@@ -124,13 +124,13 @@ export const CantinaSpotlight: React.FC<CantinaSpotlightProps> = ({
             <div className="flex flex-wrap items-center gap-4">
               <button
                 onClick={onOpenReservation}
-                className="px-6 py-3 rounded-xl bg-[#D9822B] hover:bg-[#C07020] text-[#171412] font-bold text-sm shadow transition-colors"
+                className="px-6 py-3 rounded-xl bg-[#D9822B] hover:bg-[#C07020] text-[#171412] font-semibold text-xs uppercase tracking-[0.08em] shadow transition-colors"
               >
-                Reserve a Table at the Cantina
+                Reserve Table at Cantina
               </button>
               <button
                 onClick={() => onAddToCart(clasicaItem)}
-                className="px-5 py-3 rounded-xl border border-[#483C34] hover:border-[#D9822B] text-white text-sm font-semibold transition-colors flex items-center gap-2"
+                className="px-5 py-3 rounded-xl border border-[#483C34] hover:border-[#D9822B] text-white text-xs font-semibold uppercase tracking-[0.08em] transition-colors flex items-center gap-2"
               >
                 <Plus className="w-4 h-4 text-[#D9822B]" />
                 <span>Order Margarita Clásica ($13)</span>

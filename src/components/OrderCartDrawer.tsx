@@ -112,7 +112,7 @@ export const OrderCartDrawer: React.FC<OrderCartDrawerProps> = ({
                   </p>
                 </div>
 
-                <div className="bg-[#F3EDE2] rounded-2xl p-5 text-left border border-[#E3DACD] space-y-3 font-sans text-sm">
+                <div className="bg-[#F3EDE2] rounded-2xl p-5 text-left border border-[#E3DACD] space-y-3 font-serif text-sm">
                   <div className="flex justify-between items-center pb-3 border-b border-[#E3DACD]">
                     <span className="text-xs uppercase font-bold text-[#8C7E72]">Order ID</span>
                     <span className="font-mono font-bold text-base text-[#C85227]">
@@ -313,7 +313,7 @@ export const OrderCartDrawer: React.FC<OrderCartDrawerProps> = ({
               <button
                 type="submit"
                 form="cart-checkout-form"
-                className="w-full py-3.5 rounded-xl bg-[#C85227] hover:bg-[#A8401C] text-white font-bold text-sm shadow-md flex items-center justify-center gap-2 transition-all"
+                className="w-full py-3.5 rounded-xl bg-[#C85227] hover:bg-[#A8401C] text-white font-semibold text-xs uppercase tracking-[0.08em] shadow-md flex items-center justify-center gap-2 transition-all"
               >
                 <span>Place Pickup Order • ${total.toFixed(2)}</span>
                 <ArrowRight className="w-4 h-4" />

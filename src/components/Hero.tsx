@@ -49,9 +49,9 @@ export const Hero: React.FC<HeroProps> = ({ onOpenReservation, onExploreMenu }) 
               <button
                 onClick={onExploreMenu}
                 id="hero-view-menu-btn"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-xl bg-[#C85227] hover:bg-[#B3451E] text-white font-semibold text-base shadow-lg shadow-black/30 hover:shadow-xl transition-all"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-3.5 rounded-xl bg-[#C85227] hover:bg-[#B3451E] text-white font-semibold uppercase tracking-[0.08em] text-xs shadow-lg shadow-black/30 hover:shadow-xl transition-all"
               >
-                <UtensilsCrossed className="w-5 h-5" />
+                <UtensilsCrossed className="w-4 h-4" />
                 <span>Explore Full Menu</span>
                 <ArrowRight className="w-4 h-4 ml-0.5" />
               </button>
@@ -59,9 +59,9 @@ export const Hero: React.FC<HeroProps> = ({ onOpenReservation, onExploreMenu }) 
               <button
                 onClick={onOpenReservation}
                 id="hero-reserve-btn"
-                className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl bg-[#2A231E]/80 hover:bg-[#2A231E] text-white border border-[#483C34] hover:border-[#D9822B] font-semibold text-base backdrop-blur-sm transition-all"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl bg-[#2A231E]/80 hover:bg-[#2A231E] text-white border border-[#483C34] hover:border-[#D9822B] font-semibold uppercase tracking-[0.08em] text-xs backdrop-blur-sm transition-all"
               >
-                <Calendar className="w-5 h-5 text-[#D9822B]" />
+                <Calendar className="w-4 h-4 text-[#D9822B]" />
                 <span>Reserve a Table</span>
               </button>
             </div>

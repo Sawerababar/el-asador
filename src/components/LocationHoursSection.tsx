@@ -138,7 +138,7 @@ export const LocationHoursSection: React.FC<LocationHoursSectionProps> = ({ onOp
                 href={RESTAURANT_INFO.googleMapsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 py-3 rounded-xl bg-[#C85227] hover:bg-[#A8401C] text-white font-semibold text-sm shadow-sm transition-all"
+                className="inline-flex items-center justify-center gap-2 py-3 rounded-xl bg-[#C85227] hover:bg-[#A8401C] text-white font-semibold text-xs uppercase tracking-[0.08em] shadow-sm transition-all"
               >
                 <Navigation className="w-4 h-4" />
                 <span>Get Directions</span>
@@ -147,10 +147,10 @@ export const LocationHoursSection: React.FC<LocationHoursSectionProps> = ({ onOp
 
               <button
                 onClick={onOpenReservation}
-                className="inline-flex items-center justify-center gap-2 py-3 rounded-xl border border-[#2A231E] text-[#1F1A17] hover:bg-[#2A231E] hover:text-white font-semibold text-sm transition-all"
+                className="inline-flex items-center justify-center gap-2 py-3 rounded-xl border border-[#2A231E] text-[#1F1A17] hover:bg-[#2A231E] hover:text-white font-semibold text-xs uppercase tracking-[0.08em] transition-all"
               >
                 <Calendar className="w-4 h-4 text-[#C85227]" />
-                <span>Reserve a Table</span>
+                <span>Reserve Table</span>
               </button>
             </div>
           </div>

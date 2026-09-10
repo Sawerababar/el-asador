@@ -105,7 +105,7 @@ export const ExperienceSection: React.FC<ExperienceSectionProps> = ({ onOpenRese
           </div>
           <button
             onClick={onOpenReservation}
-            className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-[#C85227] hover:bg-[#A8401C] text-white font-semibold text-sm shadow-md transition-all shrink-0"
+            className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-[#C85227] hover:bg-[#A8401C] text-white font-semibold text-xs uppercase tracking-[0.08em] shadow-md transition-all shrink-0"
           >
             <Calendar className="w-4 h-4" />
             <span>Book Your Table Now</span>

@@ -91,7 +91,7 @@ export const ReservationModal: React.FC<ReservationModalProps> = ({ isOpen, onCl
               </div>
 
               {/* Receipt Ticket Card */}
-              <div className="bg-[#F3EDE2] rounded-2xl p-6 text-left border border-[#E3DACD] space-y-3 font-sans text-sm">
+              <div className="bg-[#F3EDE2] rounded-2xl p-6 text-left border border-[#E3DACD] space-y-3 font-serif text-sm">
                 <div className="flex justify-between items-center pb-3 border-b border-[#E3DACD]">
                   <span className="text-xs uppercase font-bold text-[#8C7E72]">Confirmation Code</span>
                   <span className="font-mono text-base font-bold text-[#C85227]">
@@ -294,7 +294,7 @@ export const ReservationModal: React.FC<ReservationModalProps> = ({ isOpen, onCl
               {/* Submit Button */}
               <button
                 type="submit"
-                className="w-full py-3.5 rounded-xl bg-[#C85227] hover:bg-[#A8401C] text-white font-bold text-sm shadow-md hover:shadow-lg transition-all"
+                className="w-full py-3.5 rounded-xl bg-[#C85227] hover:bg-[#A8401C] text-white font-semibold text-xs uppercase tracking-[0.08em] shadow-md hover:shadow-lg transition-all"
               >
                 Confirm Table Reservation
               </button>

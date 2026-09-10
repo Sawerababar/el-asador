@@ -109,7 +109,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           </a>
 
           {/* Desktop Nav Links */}
-          <div className="hidden lg:flex items-center gap-7 text-[15px] font-medium text-[#382F28]">
+          <div className="hidden lg:flex items-center gap-7 text-[13px] font-semibold uppercase tracking-[0.08em] text-[#382F28]">
             {navLinks.map((link) => (
               <a
                 key={link.label}
@@ -126,7 +126,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <button
               onClick={onOpenReservation}
               id="nav-reserve-btn"
-              className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-lg border border-[#C85227] text-[#C85227] hover:bg-[#C85227] hover:text-white transition-all text-sm font-semibold tracking-wide"
+              className="inline-flex items-center gap-1.5 px-4 py-2.5 rounded-lg border border-[#C85227] text-[#C85227] hover:bg-[#C85227] hover:text-white transition-all text-xs font-semibold uppercase tracking-[0.08em]"
             >
               <Calendar className="w-4 h-4" />
               <span>Reserve Table</span>
@@ -135,7 +135,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             <button
               onClick={onOpenCart}
               id="nav-order-btn"
-              className="relative inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-[#C85227] hover:bg-[#A8401C] text-white shadow-sm hover:shadow transition-all text-sm font-semibold tracking-wide"
+              className="relative inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-[#C85227] hover:bg-[#A8401C] text-white shadow-sm hover:shadow transition-all text-xs font-semibold uppercase tracking-[0.08em]"
             >
               <ShoppingBag className="w-4 h-4" />
               <span>Order Pickup</span>
@@ -183,7 +183,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                   key={link.label}
                   href={link.href}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className="py-2 px-3 rounded-md text-base font-medium text-[#2A231E] hover:bg-[#F3EDE2] hover:text-[#C85227] transition-colors"
+                  className="py-2 px-3 rounded-md text-sm font-semibold uppercase tracking-[0.08em] text-[#2A231E] hover:bg-[#F3EDE2] hover:text-[#C85227] transition-colors"
                 >
                   {link.label}
                 </a>
@@ -195,7 +195,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                     setIsMobileMenuOpen(false);
                     onOpenReservation();
                   }}
-                  className="w-full flex items-center justify-center gap-2 py-3 rounded-lg border border-[#C85227] text-[#C85227] font-semibold"
+                  className="w-full flex items-center justify-center gap-2 py-3 rounded-lg border border-[#C85227] text-[#C85227] font-semibold uppercase tracking-[0.08em] text-xs"
                 >
                   <Calendar className="w-4 h-4" />
                   <span>Book a Table</span>
@@ -205,14 +205,14 @@ export const Navbar: React.FC<NavbarProps> = ({
                     setIsMobileMenuOpen(false);
                     onOpenCart();
                   }}
-                  className="w-full flex items-center justify-center gap-2 py-3 rounded-lg bg-[#C85227] text-white font-semibold shadow-sm"
+                  className="w-full flex items-center justify-center gap-2 py-3 rounded-lg bg-[#C85227] text-white font-semibold uppercase tracking-[0.08em] text-xs shadow-sm"
                 >
                   <ShoppingBag className="w-4 h-4" />
                   <span>Order Pickup ({cartCount} items)</span>
                 </button>
                 <a
                   href={`tel:${RESTAURANT_INFO.rawPhone}`}
-                  className="w-full flex items-center justify-center gap-2 py-2.5 rounded-lg bg-[#F3EDE2] text-[#2A231E] font-medium text-sm text-center"
+                  className="w-full flex items-center justify-center gap-2 py-2.5 rounded-lg bg-[#F3EDE2] text-[#2A231E] font-semibold uppercase tracking-[0.08em] text-xs text-center"
                 >
                   <Phone className="w-4 h-4 text-[#D9822B]" />
                   <span>Call {RESTAURANT_INFO.phone}</span>

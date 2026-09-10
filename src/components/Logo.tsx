@@ -48,14 +48,14 @@ export const Logo: React.FC<LogoProps> = ({
           <span className="text-[#C85227] font-semibold text-xs">•</span>
         </div>
         <span 
-          className={`font-sans font-semibold uppercase mt-0.5 ${sizeClasses.sub} ${
+          className={`font-serif font-semibold uppercase mt-0.5 ${sizeClasses.sub} ${
             isLight ? 'text-[#D9822B]' : 'text-[#C85227]'
           }`}
         >
           Margarita Ranch Grill
         </span>
         <span 
-          className={`font-sans font-medium uppercase mt-0.5 tracking-wider ${sizeClasses.tag} ${
+          className={`font-serif font-medium uppercase mt-0.5 tracking-wider ${sizeClasses.tag} ${
             isLight ? 'text-[#B5A89C]' : 'text-[#7D7166]'
           }`}
         >
