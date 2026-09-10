@@ -25,7 +25,11 @@ import {
   Flame,
   Wine,
   GlassWater,
-  PartyPopper
+  PartyPopper,
+  Instagram,
+  Facebook,
+  MessageCircle,
+  Share2
 } from 'lucide-react';
 import { RESTAURANT_INFO, MENU_CATEGORIES, MENU_ITEMS, GUEST_REVIEWS, GALLERY_ITEMS } from './data/restaurantData';
 import type { MenuItem, MenuCategory, DietaryTag, CartItem, ReservationDetails, CateringInquiry } from './types';
@@ -1382,6 +1386,47 @@ export default function App() {
                 <p>• 700°F Raw Texas Mesquite Coals</p>
                 <p>• 12-Hour Simmered Charro Beans with Entrées</p>
                 <p>• 100% Blue Agave Craft Margaritas & Flights</p>
+              </div>
+
+              {/* Social Channels */}
+              <div className="pt-3 flex items-center gap-3">
+                <a
+                  href={RESTAURANT_INFO.socials.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                  className="p-2 rounded-full bg-[#241D18] hover:bg-[#C85227] text-[#D8CFBF] hover:text-white transition-colors border border-[#3A3029]"
+                >
+                  <Instagram className="w-4 h-4" />
+                </a>
+                <a
+                  href={RESTAURANT_INFO.socials.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                  className="p-2 rounded-full bg-[#241D18] hover:bg-[#C85227] text-[#D8CFBF] hover:text-white transition-colors border border-[#3A3029]"
+                >
+                  <Facebook className="w-4 h-4" />
+                </a>
+                <a
+                  href={RESTAURANT_INFO.socials.whatsapp}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="WhatsApp"
+                  className="p-2 rounded-full bg-[#241D18] hover:bg-[#25D366] text-[#D8CFBF] hover:text-white transition-colors border border-[#3A3029]"
+                >
+                  <MessageCircle className="w-4 h-4" />
+                </a>
+                <a
+                  href={RESTAURANT_INFO.socials.linktree}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Linktree & Menu"
+                  className="px-3 py-1.5 rounded-full bg-[#241D18] hover:bg-[#D9822B] text-xs font-semibold text-[#D8CFBF] hover:text-white transition-colors border border-[#3A3029] flex items-center gap-1.5"
+                >
+                  <Share2 className="w-3.5 h-3.5" />
+                  <span>Linktree</span>
+                </a>
               </div>
             </div>
 

@@ -19,6 +19,13 @@ export const RESTAURANT_INFO = {
     lng: -97.7119911,
   },
   googleMapsUrl: 'https://www.google.com/maps/place/El+Asador+Margarita+Ranch+Grill/@30.2603903,-97.7119911,17z/data=!3m1!4b1!4m6!3m5!1s0x8644b573e7b424c7:0x102bed6081ff4f49!8m2!3d30.2603903!4d-97.7119911!16s%2Fg%2F11yrh8j5pj',
+  socials: {
+    instagram: 'https://instagram.com/elasadormargaritaranch',
+    facebook: 'https://www.facebook.com/share/194RHx4Lmo/?mibextid=wwXIfr',
+    tiktok: 'https://tiktok.com/@elasadormargaritaranch',
+    whatsapp: 'https://wa.me/15127703222',
+    linktree: 'https://linktr.ee/elasadormargaritaranch',
+  },
   hours: [
     { day: 'Monday', time: 'Closed', closed: true, openHour: 0, closeHour: 0 },
     { day: 'Tuesday', time: '12:00 PM – 8:00 PM', closed: false, openHour: 12, closeHour: 20 },
